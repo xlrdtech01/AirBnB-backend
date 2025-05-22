@@ -1,0 +1,87 @@
+.edit-spot-form-container {
+    justify-content: center;
+    display: flex;
+    border-radius: 6px;
+    padding: 25px;
+    max-width: 400px;
+    width: 100%;
+    height: 1200px;
+    background-color:white;
+    margin: auto;
+    box-shadow: 0px 3px 3px black;
+    font-family: Tahoma;
+
+}
+.edit-spot-form input {
+
+  padding: auto;
+  margin: auto;
+  display: block;
+  margin-top: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: Tahoma;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  border-color: #666666;
+}
+
+.edit-spot-form input:focus {
+    outline: none;
+    border:1px solid #861657;
+    box-shadow: 0 0 10px #fd5c63;
+}
+
+.Cancel-update-listing-btn, .update-listing-btn {
+    margin-top: 15px;
+  margin-left: 19%;
+  background: linear-gradient(120deg, #fd5c63, #861657);
+  border: none;
+  color: white;
+  font-size: 10px;
+  padding: 15px 10px;
+  border-radius: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.edit-spot-form label {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.name-textarea, .description-textarea {
+    display: block;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+    height: 150px;
+    resize: none;
+    border-color: #666666;
+}
+
+
+.name-textarea:focus, .description-textarea:focus {
+    cursor: text;
+      outline: none;
+    border:1px solid #861657;
+    box-shadow: 0 0 10px #fd5c63;
+}
+
+.description-label {
+    display:block;
+}
+
+.full-logo-edit {
+  margin: auto;
+  width: 100px;
+  height: auto;
+  display: block;
+}

@@ -1,0 +1,45 @@
+.accountpage-nav {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+
+.accountpage-link {
+  color: black;
+  text-decoration: none;
+  margin: none;
+  align-items: center;
+  text-align: center;
+  padding: 7px 16px;
+  background-color: rgb(223, 219, 219);
+  justify-content: center;
+  display: flex;
+  border-radius: 80px;
+}
+
+.category-icon {
+  margin-right: 5px;
+}
+
+.accountpage-link:hover {
+  background-color: #ff2b53;
+  border-radius: 80px;
+  cursor: pointer;
+  color: white;
+}
+
+.selected-page-active {
+  color: white !important;
+  background-color: #ff2b53;
+  border-radius: 80px;
+  cursor: pointer;
+  margin: none;
+  align-items: center;
+  text-align: center;
+  padding: 7px 16px;
+  display: flex;
+}

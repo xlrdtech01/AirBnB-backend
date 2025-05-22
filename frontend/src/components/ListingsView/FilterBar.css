@@ -1,0 +1,68 @@
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.react-horizontal-scrolling-menu--scroll-container  {
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.filter-icon {
+  height: 23px;
+}
+
+.container-filter {
+  width: 80%;
+  margin-right: 20px;
+}
+
+.filter-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-name {
+  font-size: .7rem;
+  text-align: center;
+}
+
+.left-arrow, .right-arrow {
+  border-radius: 60px;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+  box-shadow: 0 3px 5px -3px lightslategray;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 5px;
+  filter: invert(47%) sepia(13%) saturate(9%) hue-rotate(20deg) brightness(103%) contrast(90%);
+}
+
+.card:hover{
+  filter: invert(0%) sepia(80%) saturate(105%) hue-rotate(345deg) brightness(86%) contrast(97%);
+  cursor: pointer;
+}

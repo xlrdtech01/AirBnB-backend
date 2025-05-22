@@ -1,0 +1,260 @@
+.places-page{
+  background-color: #ff2b53;
+  border-radius: 80px;
+  cursor: pointer;
+  color: white !important;
+  text-decoration: none;
+  margin: none;
+  align-items: center;
+  text-align: center;
+  padding: 7px 16px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+
+.preview-image-added {
+  border-radius: 10px;
+
+}
+
+.upload-photo-input {
+  display: hidden;
+  visibility: hidden;
+  width: 1px;
+}
+
+.add-new-place {
+    color: white !important;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.plus-new-places {
+    color: white;
+    font-weight: bolder;
+    background-color: none;
+}
+
+
+.places-page-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+
+.form-titles {
+ font-size: 23px;
+ text-align: left;
+}
+
+.helper-text {
+  text-align: left;
+}
+
+.input-place-creation {
+    width: 100%;
+    font-size: 17px;
+    line-height: 35px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.input-place-creation-form {
+    width: 80%;
+}
+
+.place-creation-form {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.place-creation-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-photos-btn {
+    margin: auto;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    padding: 6px 8px;
+    display: flex;
+    border: none;
+    color: none;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+
+.add-photos-btn-plus {
+    color: black;
+    font-weight: bolder;
+    background-color: none;
+    font-size: 14px;
+    background: none;
+    align-self: bottom;
+}
+
+
+@media screen and (max-width: 767px) {
+  .all-photos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .perks-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .checkin-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+/* For medium screens */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .all-photos-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+    .perks-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .checkin-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+/* For large screens */
+@media screen and (min-width: 1024px) {
+  .all-photos-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+    .perks-container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .checkin-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+
+.url-photo-upload {
+    display: flex;
+}
+
+.add-url-photo-btn {
+  color: white !important;
+  background-color: #ff2b53;
+  border-radius: 80px;
+  cursor: pointer;
+  margin: none;
+  align-items: center;
+  text-align: center;
+  padding: 7px 16px;
+  display: flex;
+  border:none;
+  width: 50%;
+  justify-content: center;
+}
+
+.perks-label {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+
+.checkin-header {
+  margin: 1rem;
+}
+
+
+.save-place-btn {
+  color: white !important;
+  background-color: #ff2b53;
+  border-radius: 80px;
+  cursor: pointer;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding: 7px 16px;
+  display: flex;
+  border:none;
+  width: 50%;
+  justify-content: center;
+}
+
+.save-place-btn-con {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+}

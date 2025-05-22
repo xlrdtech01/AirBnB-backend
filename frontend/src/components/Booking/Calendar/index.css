@@ -1,0 +1,101 @@
+.calendar-container {
+    display: flex;
+}
+
+.rdrDefinedRangesWrapper {
+      display: none;
+ }
+
+.react-daterange-picker__inputGroup__input:focus {
+  background: red;
+}
+
+.rdrDateDisplayWrapper {
+    width: 250px;
+    background: none;
+    color: black;
+    margin-left: auto;
+}
+
+.rdrDateInput.rdrDateDisplayItem {
+  margin: none;
+  border-color: black;
+  color: black;
+  border-radius: 6px;
+}
+
+.rdrDateInput.rdrDateDisplayItem.rdrDateDisplayItemActive{
+  margin: none;
+}
+
+.input-start-date, .input-end-date {
+  padding: 0px 16px 0 10px;
+  outline: 0;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-size: 16px;
+  border: none;
+}
+
+
+
+.start-date-container, .end-date-container {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+
+.start-date-container {
+  border: 1px solid lightgray;
+  border-right: none;
+  border-top-left-radius: 5px;
+
+}
+
+.end-date-container {
+  border: 1px solid lightgray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.end-date-container label, .start-date-container label {
+  font-size: 10px;
+  /* padding: 0 12px; */
+  color: #999;
+}
+
+.date-selector-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.guest-add-container {
+    margin: auto;
+    border: 1px solid lightgray;
+    border-top: none;
+    width: 240px;
+}
+
+.guest-add-container label {
+    font-size: 10px;
+    color: #999;
+}
+
+.add-guest {
+  padding: 0px 16px 0 10px;
+  outline: 0;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-size: 16px;
+  border: none;
+
+}
+
+
+.add-guest-input {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}

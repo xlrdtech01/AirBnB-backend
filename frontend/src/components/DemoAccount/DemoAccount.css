@@ -1,0 +1,15 @@
+.demo-login {
+    background: none;
+    border: none;
+    text-align:center;
+    font-size: 15px;
+    padding: 10px 23px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.demo-login:hover {
+  background-color: #dcdcdc;
+  border-radius: 80px;
+  cursor: pointer;
+}

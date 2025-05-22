@@ -1,0 +1,84 @@
+.add-review-btn {
+    margin-left: 20px;
+    margin-top: 25px;
+    background:linear-gradient(120deg, #fd5c63, #c30b03);
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px 15px;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+
+.submit-review-btn, .update-review-btn, .cancel-update-btn {
+    margin-left: 20px;
+    background:linear-gradient(120deg, #fd5c63, #861657);
+    border: none;
+    color: white;
+    text-align:center;
+    font-size: 10px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-family: Montserrat;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #fd5c63;
+}
+
+.submit-review-btn{
+    position: relative;
+    left: 140px;
+    bottom: 20px;
+}
+
+.update-review-btn, .cancel-update-btn {
+    position: relative;
+    left: 110px;
+}
+
+.Review-title-for-edit {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    bottom: 20px;
+    left: 70px;
+
+}
+
+.review-textarea-editing {
+    display: block;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    margin-left: 40px;
+    outline: none;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+    height: 150px;
+    resize: none;
+    border-color: #666666;
+}
+
+.start-one, .start-two, .start-three, .start-four, .star-five {
+    display: flex;
+}
+
+
+.all-stars{
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+}
+
+.review-container {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}

@@ -1,0 +1,65 @@
+.listings-container {
+  /*display: flex; */
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1.5rem;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 3rem;
+}
+
+.listings-container li {
+  list-style: none;
+}
+
+.listings-container ol {
+  display: flex;
+}
+
+.spot-image-container {
+  position: relative;
+  object-fit: cover;
+  width: 270px;
+  height: 270px;
+}
+
+.spot {
+
+}
+
+.listing-link {
+  margin: 1rem;
+  margin-bottom: 2rem;
+  cursor:pointer;
+}
+
+.spot-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.information {
+  justify-content: center;
+  text-decoration: none;
+}
+
+.information {
+  color: #484848;
+}
+
+
+.location-info {
+  color: black;
+}
+
+.listing-price {
+  padding-bottom: 5px;
+}

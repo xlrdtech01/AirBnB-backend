@@ -1,0 +1,23 @@
+.filter-button {
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 45px;
+    padding-left: 14px;
+    padding-right: 14px;
+    cursor: pointer;
+}
+
+.filter-button img {
+    height: 13px;
+    padding-right: 5px;
+}
+
+
+.filter-btn-txt {
+    font-size: 13px;
+}

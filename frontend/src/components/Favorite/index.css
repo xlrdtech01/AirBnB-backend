@@ -1,0 +1,9 @@
+.favorite-icon {
+    /* background-color:; */
+    position: absolute;
+    right: 18px;
+    top: 9px;
+    font-size: 25px;
+    z-index: 900;
+    cursor: pointer;
+}

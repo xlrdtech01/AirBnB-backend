@@ -1,0 +1,133 @@
+.review {
+  margin-top: 10px;
+}
+
+.review-container {
+  display: flex;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.review-owner {
+  display: flex;
+  margin-top: 5px;
+}
+
+.review-text {
+  margin-top: 20px;
+}
+
+.review-content{
+  margin-left: 5px;
+}
+
+.review input {
+  width: 100%;
+  height: 100%;
+}
+
+.edit-review-btn {
+  font-size: 12px;
+  color: black;
+  cursor: pointer;
+  background: none;
+  border: none;
+
+}
+.delete-review-btn {
+  font-size: 12px;
+  color: black;
+  cursor: pointer;
+  background: none;
+  border: none;
+
+}
+
+.delete-button {
+  grid-area: 1/4/2/5;
+  position: relative;
+  color: white;
+  background-color: #f44949;
+  font-size: 12px;
+  border: none;
+  display: inline-block;
+}
+
+.save-button {
+  grid-area: 1/4/2/5;
+  position: relative;
+  color: white;
+  background-color: #4caf50;
+  font-size: 12px;
+  border: none;
+  display: inline-block;
+  right: 200px;
+}
+
+.star-one input[type="radio"] {
+  visibility: hidden;
+  display: flex;
+}
+
+.star-two input[type="radio"] {
+  visibility: hidden;
+  display: flex;
+  bottom: 100px;
+}
+.star-three input[type="radio"] {
+  visibility: hidden;
+  display: flex;
+}
+.star-four input[type="radio"] {
+  visibility: hidden;
+  display: flex;
+}
+.star-five input[type="radio"] {
+  visibility: hidden;
+  display: flex;
+}
+
+.star-one {
+  display: flex;
+  position: relative;
+  top: 3px;
+  left: 100px;
+}
+
+.star-two {
+  display: flex;
+  position: relative;
+  top: 3px;
+  left: 120px;
+}
+
+.star-three {
+  display: flex;
+  position: relative;
+  top: 3px;
+  left: 140px;
+}
+
+.star-four {
+  display: flex;
+  position: relative;
+  top: 3px;
+  left: 160px;
+}
+
+.star-five {
+  display: flex;
+  position: relative;
+  top: 3px;
+  left: 180px;
+}
+.default-profile-review {
+    width: 28px;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+
+

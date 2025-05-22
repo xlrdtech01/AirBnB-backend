@@ -1,0 +1,95 @@
+.sign-up-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.error-list-item {
+  list-style: none;
+}
+
+.left-half-signup {
+  width: 50%;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1535888948737-0f8170308013?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1285&q=80") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.left-half-signup h1 {
+    color:white;
+    position: relative;
+    font-size: 50px;
+    margin-left: auto;
+    top: 50%;
+}
+
+.full-logo {
+  width: 100px;
+  height: auto;
+}
+
+.left-half-signup span {
+    color:white;
+    font-size: 19px;
+    position: relative;
+    top: 52%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.right-half-signup {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup-title {
+    display: block;
+    margin: auto;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-family: "HHelvetica Neue"
+}
+
+.firstName-signup, .lastName-signup, .email-input-signup, .password-input-signup, .confirm-password-input-signup, .sign-up-button-signuppage {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    width: 300px;
+     outline: 0;
+  border-width: 0 0 2px;
+}
+
+.email-input-signup:focus, .password-input-signup:focus, .confirm-password-input-signup:focus, .firstName-signup:focus, .lastName-signup:focus {
+  border-color: #fd5c63;
+}
+
+
+.email-label, .pwd-label, .cfm-pwd-label, .firstName-label, .lastName-label {
+  margin-top: 50px;
+  font-family: "HHelvetica Neue";
+  font-size: 20px;
+
+}
+
+
+.sign-up-button-signuppage {
+  margin-top: 40px;
+  background: linear-gradient(120deg, #fd5c63, #861657);
+  border: none;
+  color: white;
+  font-size: 10px;
+  padding: 15px 10px;
+  border-radius: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  cursor: pointer;
+}

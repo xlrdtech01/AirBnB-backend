@@ -1,0 +1,178 @@
+.preview-image {
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: auto;
+    justify-content: center;
+}
+.owner-buttons{
+    display: inline-flex;
+}
+
+.avg-stars {
+    margin-left: 3px;
+    margin-right: 4px
+}
+
+.default-profile-headshot {
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 40px;
+    height: auto;
+}
+
+.stats {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.left-side-stats {
+    width: 50%;
+    height: 100%;
+}
+.right-side-stats {
+    width: 50%;
+    height: 100%;
+}
+
+.all-reviews-container {
+    margin-top: 90px;
+}
+.delete-btn {
+    margin-left: 20px;
+    margin-top: 25px;
+    background:linear-gradient(120deg, #fd5c63, #861657);
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px 15px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.price {
+    display: block;
+    margin: auto;
+}
+
+.preview-image {
+    border-radius: 5px;
+}
+
+.edit-page-btn {
+    margin-left: 20px;
+    margin-top: 25px;
+    background:linear-gradient(120deg, #fd5c63, #861657);
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px 15px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.name-title {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+.address-line {
+    font-family: Montserrat;
+    font-weight: normal;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.total-reviews {
+    margin: 10px;
+    font-family: Montserrat;
+    font-weight: normal;
+    text-decoration: underline
+}
+
+.review-stats-container {
+    margin-top: 30px;
+}
+
+.seperation {
+    color: gray;
+    font-weight: 900;
+}
+
+.page-container {
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+}
+
+.Cleanliness, .Location, .Value, .Check-in, .Communication, .Accuracy {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-right: 15px;
+}
+
+.block {
+    border-top: 4px solid #333;
+    border-radius: 20px;
+    width: 120px;
+    height: 1px;
+    display: inline-flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 7px;
+    margin-right: 3px;
+}
+.rating-block {
+    display: flex;
+
+}
+
+.heading-for-owner {
+
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 35px;
+}
+
+.owner-heading {
+    margin-top: 20px;
+     border-bottom: 1px solid lightgrey;
+}
+
+.owner-info{
+    display: flex;
+    justify-content: space-between;
+}
+.house-info {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+.profile {
+    position: relative;
+    left: 500px;
+    bottom: 40px;
+}
+
+
+.description {
+
+    border-bottom: 1px solid lightgrey;
+
+}

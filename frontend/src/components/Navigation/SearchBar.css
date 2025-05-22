@@ -1,0 +1,44 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px lightgray solid;
+    border-radius: 35px;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Anywhere-text {
+    border-right: 1px lightgray solid;
+    padding: 10px;
+    line-height: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.Anyweek-text {
+    border-right: 1px lightgray solid;
+    padding: 10px;
+    line-height: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.guest-text {
+    color: gray;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.search-btn{
+    background-color: #ff2b53;
+    border: none;
+    color: white;
+    padding: 7px 7px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}

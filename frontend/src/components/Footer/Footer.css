@@ -1,0 +1,55 @@
+.footer-container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+
+}
+.linked-in-link, .github-link {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+.linked-in-link:hover, .github-link:hover {
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+.host-experience-btn-footer:hover {
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+.thegithub, .thelinkedin {
+  align-items: center;
+  text-align: center;
+  color: gray;
+  display: flex;
+  font-size: 23px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.right-side-footer, .left-side-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+}
