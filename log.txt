@@ -2,3 +2,4 @@ commit
 .
 .
 installing windows
+to determine
