@@ -3,3 +3,4 @@ commit
 .
 installing windows
 to determine
+if its the hard driver or a missing driver.
